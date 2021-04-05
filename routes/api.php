@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Backend\SaleProductController;
+use App\Http\Controllers\Backend\SaveSaleRecordsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -22,4 +23,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('/admin/postProductDetails/save', [SaleProductController::class, 'postProductDetails']);
 Route::delete('/admin/getTempSaleProduct/delete/{id}', [SaleProductController::class, 'getTempSaleProductDelete']);
 Route::delete('/admin/deleteTempSaleProduct/delete/{product_id}', [SaleProductController::class, 'deleteTempSaleProduct']);
-
+Route::post('/admin/saveSaleRecords/save', [SaveSaleRecordsController::class, 'saveSaleRecords']);

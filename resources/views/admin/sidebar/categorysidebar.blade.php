@@ -34,7 +34,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="{{ route('admin.category') }}" class="nav-link ">
+                                    <a href="{{ route('admin.category') }}" class="nav-link active">
                                         <i class="fa fa-share nav-icon"></i>
                                         <p>Category</p>
                                     </a>
@@ -79,7 +79,7 @@
                         
 
                             <li class="nav-item has-treeview">
-                                <a href="#" class="nav-link active">
+                                <a href="#" class="nav-link ">
                                         <i class="fas fa-user-plus nav-icon"></i>
                                         <p>
                                             Customer

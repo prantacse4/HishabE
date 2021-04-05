@@ -68,7 +68,7 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ route('admin.saleproduct') }}" class="nav-link">
+                                        <a href="{{ route('admin.saleproduct') }}" class="nav-link ">
                                             <i class="fa fa-share nav-icon"></i>
                                             <p>Sale Product</p>
                                         </a>
